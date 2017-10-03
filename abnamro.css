@@ -49,7 +49,8 @@ a.mcf-button {
 
     .quinity_form_table table.buttonbar td a {
       float: none !important;
-      padding: 8px 0px !important;;
+      padding: 8px 0px !important;
+      margin: 0px !important;
     }
 
     .quinity_form_table table.buttonbar a[name="FormScreenContinue"] {
@@ -57,11 +58,11 @@ a.mcf-button {
     }
 
     .quinity_form_table .buttonbar a[name=FormScreenContinue] {
-    border: none;
+      border: none !important;
     }
 
     #rs_read > div.mcf-accordeon {
-      margin: 20px 0 30px 20px !important;
+      margin: 20px 0 30px 0px !important;
     }
 
 
@@ -86,7 +87,7 @@ https://cdn.rawgit.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abn
 var hashGithub = "35d536a2f883ec2b123e8cc9dbe8b2901c96997b";
 
 var url1 = "\
-https://cdn.rawgit.com/Dylanmo/code/35d536a2f883ec2b123e8cc9dbe8b2901c96997b/abnamro.css\
+https://cdn.rawgit.com/Dylanmo/code/429678c61c16651b02060d7095955aa2decc87d1/abnamro.css\
 ";
 
 $('head').append('@media only screen and (max-width: 425px) {\
