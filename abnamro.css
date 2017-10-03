@@ -40,10 +40,14 @@ a.mcf-button {
 
 
     /* margin formulier */
-    body form.formulieren, .quinity_form_table .grouptable th {
+    body form.formulieren {
       margin: 0px !important;
       padding: 0px !important;
     }
+
+  .quinity_form_table .grouptable th {
+
+  }
 
     /* full width button */
     td.quinity_forms_column_last > a {
