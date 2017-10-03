@@ -2,7 +2,7 @@
 /* BASIC */
 
 
-/* Buttons */
+/* Buttons
 .mcf-links-with-action a {
   float: none !important;
   margin-right: 0px !important;
@@ -14,6 +14,7 @@ a.mcf-button {
   height: inherit !important;
   font-size: 16px !important;
 }
+*/
 
 /* Video player */
 
@@ -68,12 +69,12 @@ a.mcf-button {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Raw:
-https://raw.githubusercontent.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css
+https://raw.githubusercontent.com/Dylanmo/code/master/abnamro.css
 Development:
 https://cdn.rawgit.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css
 
 $('head').append('@media only screen and (max-width: 425px) {\
-<link rel="stylesheet" href="https://cdn.rawgit.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css">\
+<link rel="stylesheet" href="https://cdn.rawgit.com/Dylanmo/code/master/abnamro.css">\
 </style>');
 
 */
