@@ -49,6 +49,7 @@ a.mcf-button {
 
     .quinity_form_table table.buttonbar td a {
       float: none !important;
+      padding: 8px 0px !important;;
     }
 
     .quinity_form_table table.buttonbar a[name="FormScreenContinue"] {
@@ -80,9 +81,12 @@ Commit CDN:
 https://cdn.rawgit.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//eval?
+
+var hashGithub = "35d536a2f883ec2b123e8cc9dbe8b2901c96997b";
 
 var url1 = "\
-https://cdn.rawgit.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css\
+https://cdn.rawgit.com/Dylanmo/code/35d536a2f883ec2b123e8cc9dbe8b2901c96997b/abnamro.css\
 ";
 
 $('head').append('@media only screen and (max-width: 425px) {\
