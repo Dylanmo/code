@@ -70,39 +70,8 @@ a.mcf-button {
       background-color: #f9f9f9 !important;
     }
 
-    .grouptable.vragen-blok {
+    .grouptable.vragen-blok, .quinity_form_table .grouptable {
       border-bottom: none !important;
     }
 
     /* button switch JA/NEE */
-
-/*
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Raw:
-https://raw.githubusercontent.com/Dylanmo/code/master/abnamro.css
-
-Development:
-https://cdn.rawgit.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css
-
-Commit Raw:
-https://raw.githubusercontent.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css
-
-Commit CDN:
-https://cdn.rawgit.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//eval?
-
-//Versie: 8
-var hashGithub = "907066cd2aa147c300cf327ff2b0ffaa776a5eeb";
-
-var url1 = "\
-https://cdn.rawgit.com/Dylanmo/code/40cc248acbf4ebda02f30d1681534e5f45a14c9b/abnamro.css\
-";
-
-$('head').append('@media only screen and (max-width: 425px) {\
-<link rel="stylesheet" href="' + url1 + '">\
-</style>');
-
-*/
