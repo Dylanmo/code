@@ -1,4 +1,7 @@
 
+/* BASIC */
+
+
 /* Buttons */
 .mcf-links-with-action a {
   float: none !important;
@@ -19,13 +22,46 @@ a.mcf-button {
 /* Tables */
 
 
+
 /* Service & Contact */
 
 
 
+/* weglaten sidebar images */
 
 
 
+/* SPECIFIC PAGES */
+
+  /* AFSPRAAKFORMULIER */
+
+
+    /* margin formulier */
+    body form.formulieren {
+      margin: 0px !important;
+    }
+
+    /* full width button */
+    td.quinity_forms_column_last > a {
+      width: 100% !important;
+    }
+
+    .quinity_form_table table.buttonbar td a {
+      padding: 100% !important;
+      float: none !important;
+    }
+
+    .quinity_form_table table.buttonbar a[name="FormScreenContinue"] {
+    float: none !important;
+    }
+
+    .quinity_form_table .buttonbar a[name=FormScreenContinue] {
+    border: none;
+    }
+
+    #rs_read > div.mcf-accordeon {
+      margin: 20px 0 30px 20px !important;
+    }
 
 
 /*
@@ -36,7 +72,7 @@ https://raw.githubusercontent.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7
 Development:
 https://cdn.rawgit.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css
 
-$('head').append('@media only screen and (max-width: 425px) {\\
+$('head').append('@media only screen and (max-width: 425px) {\
 <link rel="stylesheet" href="https://cdn.rawgit.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css">\
 </style>');
 
