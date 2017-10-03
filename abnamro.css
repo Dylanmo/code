@@ -48,12 +48,11 @@ a.mcf-button {
     }
 
     .quinity_form_table table.buttonbar td a {
-      padding: 100% !important;
       float: none !important;
     }
 
     .quinity_form_table table.buttonbar a[name="FormScreenContinue"] {
-    float: none !important;
+      float: none !important;
     }
 
     .quinity_form_table .buttonbar a[name=FormScreenContinue] {
@@ -70,11 +69,24 @@ a.mcf-button {
 
 Raw:
 https://raw.githubusercontent.com/Dylanmo/code/master/abnamro.css
+
 Development:
 https://cdn.rawgit.com/Dylanmo/code/509e45f440279285d4a8cea4023fdd1d7e62fe51/abnamro.css
 
+Commit Raw:
+https://raw.githubusercontent.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css
+
+Commit CDN:
+https://cdn.rawgit.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var url1 = "\
+https://cdn.rawgit.com/Dylanmo/code/68e7d5940365a6fc780efc812b0f50f57ecd6e44/abnamro.css\
+";
+
 $('head').append('@media only screen and (max-width: 425px) {\
-<link rel="stylesheet" href="https://cdn.rawgit.com/Dylanmo/code/master/abnamro.css">\
+<link rel="stylesheet" href="' + url1 + '">\
 </style>');
 
 */
