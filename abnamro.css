@@ -74,6 +74,7 @@ a.mcf-button {
     /* transparante background-color formulier */
     .quinity_form_table tr, .mcf-maincontent #form table, .grouptable td, .quinity_form_table td {
       background-color: #f9f9f9 !important;
+      background: #f9f9f9 !important;
     }
 
     .grouptable.vragen-blok, .quinity_form_table .grouptable {
