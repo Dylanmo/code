@@ -1,3 +1,5 @@
+/* MOBILE ONLY */
+
 
 /* BASIC */
 
@@ -38,8 +40,9 @@ a.mcf-button {
 
 
     /* margin formulier */
-    body form.formulieren {
+    body form.formulieren, .quinity_form_table .grouptable th {
       margin: 0px !important;
+      padding: 0px !important;
     }
 
     /* full width button */
@@ -63,6 +66,9 @@ a.mcf-button {
 
     #rs_read > div.mcf-accordeon {
       margin: 20px 0 30px 0px !important;
+
+    .quinity_form_table .grouptable td.input {
+      padding: 0 20px 5px !important;
     }
 
     /* transparante background-color formulier */
