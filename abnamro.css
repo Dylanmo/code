@@ -48,12 +48,13 @@ a.mcf-button {
     /* full width button */
     td.quinity_forms_column_last > a {
       width: 100% !important;
+
     }
 
     .quinity_form_table table.buttonbar td a {
       float: none !important;
       padding: 8px 0px !important;
-      margin: 0px !important;
+      margin: 0px 20px !important;
     }
 
     .quinity_form_table table.buttonbar a[name="FormScreenContinue"] {
@@ -65,7 +66,7 @@ a.mcf-button {
     }
 
     #rs_read > div.mcf-accordeon {
-      margin: 20px 0 30px 0px !important;
+      margin: 50px 0 30px 0px !important;
     }
 
 
