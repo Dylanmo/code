@@ -62,7 +62,7 @@ a.mcf-button {
     }
 
     .quinity_form_table .buttonbar a[name=FormScreenContinue] {
-      border: none !important;
+      /* border: none !important; */
     }
 
     #rs_read > div.mcf-accordeon {
@@ -94,6 +94,7 @@ a.mcf-button {
     #form > table > tbody > tr:nth-child(2) {
     margin-top: -60px !important;
     margin-bottom: 20px !important;
+    margin-right: 40px !important;
     }
 
     /* inkorten margin vragen */
