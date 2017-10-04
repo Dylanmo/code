@@ -44,9 +44,6 @@ a.mcf-button {
       margin: 0px !important;
     }
 
-  .quinity_form_table .grouptable th {
-
-  }
 
     /* full width button */
     td.quinity_forms_column_last > a {
@@ -76,13 +73,22 @@ a.mcf-button {
     }
 
     /* transparante background-color formulier */
-    .grouptable td {
+    .grouptable td, #G18656 > td > table > tbody > tr:nth-child(11) {
       background-color: #f9f9f9 !important;
       background: #f9f9f9 !important;
     }
 
     .grouptable.vragen-blok, .quinity_form_table .grouptable {
       border-bottom: none !important;
+    }
+
+    /* verwijderen witte blokken rechterkant */
+    .grouptable td.label {
+      min-width: 100% !important;
+    }
+
+    #form > .quinity_form_table {
+      margin-top: -60px;
     }
 
     /* button switch JA/NEE */
