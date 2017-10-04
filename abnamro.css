@@ -87,8 +87,18 @@ a.mcf-button {
       min-width: 100% !important;
     }
 
+    /* margin formulier */
     #form > .quinity_form_table {
-      margin-top: -60px;
+      margin-top: -60px !important;
     }
+
+    #form > table > tbody > tr:nth-child(2) {
+    margin-top: -80px !important;
+    margin-bottom: 20px !important;
+    }
+
+    /* inkorten margin vragen */
+
+
 
     /* button switch JA/NEE */
