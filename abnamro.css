@@ -72,13 +72,13 @@ a.mcf-button {
     }
 
     .quinity_form_table .grouptable td.input {
-      /*padding: 0 20px 5px !important; */
+      padding: 0 20px 5px !important;
     }
 
     /* transparante background-color formulier */
-    .quinity_form_table tr, .mcf-maincontent #form table, .grouptable td, .quinity_form_table td, .quinity_form_table .grouptable {
-      /*background-color: #f9f9f9 !important;
-      background: #f9f9f9 !important; */
+    .grouptable td {
+      background-color: #f9f9f9 !important;
+      background: #f9f9f9 !important;
     }
 
     .grouptable.vragen-blok, .quinity_form_table .grouptable {
