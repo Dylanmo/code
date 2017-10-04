@@ -68,9 +68,7 @@ a.mcf-button {
       margin: 20px 0 30px 0px !important;
     }
 
-    .quinity_form_table .grouptable td.input {
-      padding: 0 20px 5px !important;
-    }
+
 
     /* transparante background-color formulier */
     .grouptable td, #G18656 > td > table > tbody > tr:nth-child(11) {
@@ -93,12 +91,24 @@ a.mcf-button {
     }
 
     #form > table > tbody > tr:nth-child(2) {
-    margin-top: -80px !important;
+    margin-top: -60px !important;
     margin-bottom: 20px !important;
     }
 
     /* inkorten margin vragen */
 
+    #G18656 > td > table > tbody > tr > td.input {
+      padding: 0 20px 5px !important;
+    }
+
+    #grpTableFirstChildTr,
+    #form > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr.applicable > td.input {
+      padding: 0 20px 0px !important;
+    }
+
+    .grouptable th {
+      padding-top: 0px !important;
+    }
 
 
     /* button switch JA/NEE */
