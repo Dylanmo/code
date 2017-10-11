@@ -39,6 +39,9 @@ a.mcf-button {
   /* AFSPRAAKFORMULIER */
 
 
+  /* JEROEN */
+
+
     /* margin formulier */
     body form.formulieren {
       margin: 0px !important;
@@ -112,5 +115,6 @@ a.mcf-button {
       padding-top: 0px !important;
     }
 
+    /* FIX: IMAGE MARGIN VOOR GROTE SMARTPHONES */
 
     /* button switch JA/NEE */
