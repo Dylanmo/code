@@ -1,5 +1,3 @@
-<style>
-  @media only screen and (max-width: 420px) {
     .header0  /* Eerste regel */ {
       text-align: left !important;
     }
@@ -55,5 +53,3 @@
       width: initial !important;
       margin: 0px !important;
     }
-
-}</style>
