@@ -1,0 +1,59 @@
+<style>
+  @media only screen and (max-width: 420px) {
+    .header0  /* Eerste regel */ {
+      text-align: left !important;
+    }
+
+    .header1  /* Eerste kop */ {
+      width: 76px !important;  /* 86px bij font-size 12px en 98px bij 14px */
+      padding: 0px 5px 0px 5px !important;
+    }
+
+    .rentetable .headers .header2, .header3, .header4, .header5,
+    /* .column1, .column2, .column3, .column4,*/
+    div.renteTabelCon > div > div.rows > .instance > div
+    {
+      width: 48px !important;
+    }
+
+    div.renteTabelCon > div > div.rows > .instance > .column0  /* Rijen */ {
+      width: 75px !important; /* 75px bij font-size 12px en 88px bij 14px */
+    }
+
+    .headers, .rentetable .headers .header0, .rentetable .headers div, .assettext, .rentetable, .RekenVoorbeeldTabel /* Fontsize rentes */ {
+      font: normal 12px/18px 'Univers57C',Arial,sans-serif !important;
+    }
+
+    .rentetabelBody > .assettext {
+      margin: 0px !important;
+      width: 320px !important;
+    }
+
+    .field, .rentetabel > h1 > .displayname, .head > .displayname {
+      margin: 0px !important;
+    }
+
+    .textitem,
+    .RekenVoorbeeldTabel .header,
+    .RekenVoorbeeldTabel .header .assettext span
+    {
+      padding: 0px !important;
+    }
+
+    #P423-C0-C5-C1-C0, .KnopAlsLink, div.body > div.field.readonly,
+    .KnopAlsLink span
+    {margin: 0px !important; padding: 0px !important;}
+
+    .rentetable .rows .instance div,
+    div.renteTabelCon > div > div.headers > div {
+      padding: 0px 5px 0px 5px !important;
+    }
+
+    #P423-C0-B2 {margin-bottom: 10px !important;}
+
+    .RentetoolDisclaimerContainer .assettext {
+      width: initial !important;
+      margin: 0px !important;
+    }
+
+}</style>

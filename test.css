@@ -1,0 +1,199 @@
+/* MOBILE ONLY */
+
+
+/* BASIC */
+
+
+/* Buttons
+.mcf-links-with-action a {
+  float: none !important;
+  margin-right: 0px !important;
+}
+
+a.mcf-button {
+  width: 100% !important;
+  padding: 10px 0px !important;
+  height: inherit !important;
+  font-size: 16px !important;
+}
+*/
+/* enriched radio buttons */
+.grouptable.vragen-blok .label label {
+    font-size: 16px;
+    line-height: 1.375;
+}
+
+.grouptable.vragen-blok input[type=radio]{
+	display: none!important;
+    height: 0!important;
+    width: 0!important;
+    margin: 0!important;
+}
+
+.grouptable.vragen-blok .input select {
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    display: inline-block;
+    word-wrap: initial;
+    overflow-wrap: initial;
+    word-break: initial;
+    -ms-word-wrap: initial;
+    width: 314px;
+    height: 36px;
+    padding: 6px 10px;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #222222;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #666666;
+    border-radius: 2px;
+}
+
+.grouptable.vragen-blok .input span {
+	position: relative;
+	font-size: 0;
+	z-index: 10;
+	font-size: 0;
+}
+
+.grouptable.vragen-blok .input label {
+    display: inline-block;
+    width: 145px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #E0E0E0;
+    padding: 20px 0px 20px 10px;
+    background-color: #F5F5F5;
+    color: #222222;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	position: relative;
+	z-index: 10;
+}
+
+.grouptable.vragen-blok .input label:last-child {
+	margin-left: -1px;
+}
+
+.grouptable.antwoorden tr:first-child + tr td {
+    padding-top: 0;
+}
+
+.grouptable.vragen-blok .input label:active,
+.grouptable.vragen-blok .input label:hover,
+.grouptable.vragen-blok .input label:focus,
+.grouptable.vragen-blok .input label.active {
+    border: 1px solid #608e28;
+    background-color: #FFFFFF;
+	z-index: 100;
+}
+/* ///enriched radio buttons */
+
+
+
+
+/* Video player */
+
+
+
+/* Tables */
+
+
+
+/* Service & Contact */
+
+
+
+/* weglaten sidebar images */
+
+
+
+/* SPECIFIC PAGES */
+
+  /* AFSPRAAKFORMULIER */
+
+
+  /* JEROEN */
+
+
+    /* margin formulier */
+    body form.formulieren {
+      margin: 0px !important;
+    }
+
+
+    /* full width button */
+    td.quinity_forms_column_last > a {
+      width: 100% !important;
+
+    }
+
+    .quinity_form_table table.buttonbar td a {
+      float: none !important;
+      padding: 8px 0px !important;
+      margin: 0px 20px !important;
+    }
+
+    .quinity_form_table table.buttonbar a[name="FormScreenContinue"] {
+      float: none !important;
+    }
+
+    .quinity_form_table .buttonbar a[name=FormScreenContinue] {
+      /* border: none !important; */
+    }
+
+    #rs_read > div.mcf-accordeon {
+      margin: 50px 0 30px 0px !important;
+    }
+
+
+
+    /* transparante background-color formulier */
+    .grouptable td, #G18656 > td > table > tbody > tr:nth-child(11) {
+      background-color: #f9f9f9 !important;
+      background: #f9f9f9 !important;
+    }
+
+    .grouptable.vragen-blok, .quinity_form_table .grouptable {
+      border-bottom: none !important;
+    }
+
+    /* verwijderen witte blokken rechterkant */
+    .grouptable td.label {
+      min-width: 100% !important;
+    }
+
+    /* margin formulier */
+    #form > .quinity_form_table {
+      margin-top: -60px !important;
+    }
+
+    #form > table > tbody > tr:nth-child(2) {
+    margin-top: -60px !important;
+    margin-bottom: 20px !important;
+    margin-right: 40px !important;
+    }
+
+    /* inkorten margin vragen */
+
+    #G18656 > td > table > tbody > tr > td.input {
+      padding: 0 20px 5px !important;
+    }
+
+    #grpTableFirstChildTr,
+    #form > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr.applicable > td.input {
+      padding: 0 20px 0px !important;
+    }
+
+    .grouptable th {
+      padding-top: 0px !important;
+    }
+
+    /* FIX: IMAGE MARGIN VOOR GROTE SMARTPHONES */
+
+    /* button switch JA/NEE */
